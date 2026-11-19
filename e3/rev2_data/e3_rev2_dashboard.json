@@ -1,0 +1,587 @@
+{
+  "metadata": {
+    "proyecto": "IFP0298 · Puerto Seco San Román",
+    "entregable": "E3 Rev2",
+    "fecha_documento": "2026-11-19",
+    "nivel": "conceptual",
+    "fuente": "Informe Entregable N.º 3 Rev2",
+    "webgis_version": "E3 rev2 2026-11-18",
+    "n_escenarios": 2048,
+    "semilla": 20261110
+  },
+  "demanda_familias": [
+    {
+      "familia": "Granel seco y agroindustrial",
+      "productos": "Soya y derivados, sal, fertilizantes, cereales",
+      "captacion_t": 148477.0,
+      "participacion": "60,1%",
+      "tratamiento": "Núcleo inicial"
+    },
+    {
+      "familia": "Carga general e industrial",
+      "productos": "Acero, cerámicos, construcción, químicos, manufacturas",
+      "captacion_t": 94549.0,
+      "participacion": "38,3%",
+      "tratamiento": "Núcleo inicial"
+    },
+    {
+      "familia": "Contenedor identificado",
+      "productos": "Contenedores sin producto clasificado (Matarani)",
+      "captacion_t": 4115.0,
+      "participacion": "1,7%",
+      "tratamiento": "Núcleo inicial, con equipos flexibles"
+    },
+    {
+      "familia": "Refrigerados",
+      "productos": "Cárnicos de Brasil (mercado de 11.896 t)",
+      "captacion_t": 0.0,
+      "participacion": "—",
+      "tratamiento": "Reserva para la fase 2"
+    },
+    {
+      "familia": "Combustibles",
+      "productos": "Combustibles y diésel ferroviario (mercado de 345.716 t)",
+      "captacion_t": 0.0,
+      "participacion": "—",
+      "tratamiento": "Fuera del recinto"
+    }
+  ],
+  "cadenas": [
+    {
+      "id": "C01",
+      "cadena": "C01 · Bolivia → Perú (destino Puno)",
+      "mercado_t": 188608.0,
+      "captacion_t": 34133.0,
+      "familias_regimen": "Granel y carga general; importación"
+    },
+    {
+      "id": "C02",
+      "cadena": "C02 · Perú → Bolivia (origen Puno)",
+      "mercado_t": 80984.0,
+      "captacion_t": 6682.0,
+      "familias_regimen": "Carga general; exportación"
+    },
+    {
+      "id": "C03",
+      "cadena": "C03 · Tránsito boliviano (paso por Juliaca)",
+      "mercado_t": 498693.0,
+      "captacion_t": 41210.0,
+      "familias_regimen": "Carga general y granel; tránsito"
+    },
+    {
+      "id": "C04",
+      "cadena": "C04 · Brasil → Perú (destino Puno)",
+      "mercado_t": 1064.0,
+      "captacion_t": 77.0,
+      "familias_regimen": "Carga general y granel; importación"
+    },
+    {
+      "id": "C05",
+      "cadena": "C05 · Matarani (destino Puno)",
+      "mercado_t": 47384.0,
+      "captacion_t": 7236.0,
+      "familias_regimen": "Granel y contenedor; importación"
+    },
+    {
+      "id": "C06",
+      "cadena": "C06 · Diésel ferroviario",
+      "mercado_t": 14000.0,
+      "captacion_t": 0.0,
+      "familias_regimen": "Combustibles; sin captación"
+    },
+    {
+      "id": "C07",
+      "cadena": "C07 · Bolivia → Perú (paso por Juliaca)",
+      "mercado_t": 914270.0,
+      "captacion_t": 105548.0,
+      "familias_regimen": "Granel y carga general; importación"
+    },
+    {
+      "id": "C08",
+      "cadena": "C08 · Perú → Bolivia (paso por Juliaca)",
+      "mercado_t": 390004.0,
+      "captacion_t": 20501.0,
+      "familias_regimen": "Carga general; exportación"
+    },
+    {
+      "id": "C09",
+      "cadena": "C09 · Brasil → Perú (paso por Juliaca)",
+      "mercado_t": 6389.0,
+      "captacion_t": 340.0,
+      "familias_regimen": "Carga general y granel; importación"
+    },
+    {
+      "id": "C10",
+      "cadena": "C10 · Matarani (paso por Juliaca)",
+      "mercado_t": 37692.0,
+      "captacion_t": 3630.0,
+      "familias_regimen": "Granel y contenedor; importación"
+    },
+    {
+      "id": "C11",
+      "cadena": "C11 · Bolivia → Perú (otras rutas)",
+      "mercado_t": 310084.0,
+      "captacion_t": 16225.0,
+      "familias_regimen": "Granel y carga general; importación"
+    },
+    {
+      "id": "C12",
+      "cadena": "C12 · Perú → Bolivia (otras rutas)",
+      "mercado_t": 132133.0,
+      "captacion_t": 3144.0,
+      "familias_regimen": "Carga general; exportación"
+    },
+    {
+      "id": "C13",
+      "cadena": "C13 · Tránsito boliviano (otras rutas)",
+      "mercado_t": 327133.0,
+      "captacion_t": 7103.0,
+      "familias_regimen": "Carga general y granel; tránsito"
+    },
+    {
+      "id": "C14",
+      "cadena": "C14 · Brasil → Perú (otras rutas)",
+      "mercado_t": 56438.0,
+      "captacion_t": 1314.0,
+      "familias_regimen": "Carga general y granel; importación"
+    }
+  ],
+  "horizonte": [
+    {
+      "anio": 2028,
+      "demanda_kt": 124.0,
+      "capacidad_p10_t": 3580.0,
+      "capacidad_p50_t": 5196.0,
+      "capacidad_p90_t": 7003.0,
+      "camiones_dia_p50": 17.1
+    },
+    {
+      "anio": 2029,
+      "demanda_kt": 251.0,
+      "capacidad_p10_t": 7238.0,
+      "capacidad_p50_t": 10522.0,
+      "capacidad_p90_t": 14178.0,
+      "camiones_dia_p50": 34.6
+    },
+    {
+      "anio": 2032,
+      "demanda_kt": 267.0,
+      "capacidad_p10_t": 7700.0,
+      "capacidad_p50_t": 11195.0,
+      "capacidad_p90_t": 15085.0,
+      "camiones_dia_p50": 36.8
+    },
+    {
+      "anio": 2040,
+      "demanda_kt": 318.0,
+      "capacidad_p10_t": 9183.0,
+      "capacidad_p50_t": 13340.0,
+      "capacidad_p90_t": 17972.0,
+      "camiones_dia_p50": 43.8
+    },
+    {
+      "anio": 2055,
+      "demanda_kt": 439.0,
+      "capacidad_p10_t": 12689.0,
+      "capacidad_p50_t": 18409.0,
+      "capacidad_p90_t": 24756.0,
+      "camiones_dia_p50": 60.5
+    }
+  ],
+  "capacidades_2032": [
+    {
+      "servicio": "Carga que utiliza almacenamiento",
+      "p10": 173811.0,
+      "p50": 195395.0,
+      "p90": 216489.0,
+      "unidad": "t/año"
+    },
+    {
+      "servicio": "Carga que utiliza descarga",
+      "p10": 164537.0,
+      "p50": 184976.0,
+      "p90": 203219.0,
+      "unidad": "t/año"
+    },
+    {
+      "servicio": "Carga sujeta a inspección",
+      "p10": 56598.0,
+      "p50": 73655.0,
+      "p90": 86934.0,
+      "unidad": "t/año"
+    },
+    {
+      "servicio": "Capacidad estática de almacenamiento",
+      "p10": 7700.0,
+      "p50": 11195.0,
+      "p90": 15085.0,
+      "unidad": "t"
+    },
+    {
+      "servicio": "Visitas de camiones",
+      "p10": 32.1,
+      "p50": 36.8,
+      "p90": 43.3,
+      "unidad": "camiones/día"
+    },
+    {
+      "servicio": "Carriles de gate",
+      "p10": 2.0,
+      "p50": 3.0,
+      "p90": 4.0,
+      "unidad": "carriles"
+    },
+    {
+      "servicio": "Posiciones de descarga",
+      "p10": 3.0,
+      "p50": 3.0,
+      "p90": 4.0,
+      "unidad": "posiciones"
+    },
+    {
+      "servicio": "Posiciones de inspección",
+      "p10": 1.0,
+      "p50": 1.0,
+      "p90": 1.0,
+      "unidad": "posiciones"
+    }
+  ],
+  "benchmark": [
+    {
+      "nombre": "Cuiabá",
+      "demanda_t": 37478,
+      "almacen_m2": 6867,
+      "patio_m2": 13142,
+      "area_util_m2": 22247,
+      "ratio_m2_por_kt": 594,
+      "naturaleza": "EVTE - proyección de diseño",
+      "version_evte": "según Tabla 5"
+    },
+    {
+      "nombre": "Boa Vista",
+      "demanda_t": 301608,
+      "almacen_m2": 2862,
+      "patio_m2": 17786,
+      "area_util_m2": 21246,
+      "ratio_m2_por_kt": 70,
+      "naturaleza": "EVTE - proyección de diseño",
+      "version_evte": "según Tabla 5"
+    },
+    {
+      "nombre": "Ponta Porã",
+      "demanda_t": 471089,
+      "almacen_m2": 5108,
+      "patio_m2": 26508,
+      "area_util_m2": 32352,
+      "ratio_m2_por_kt": 69,
+      "naturaleza": "EVTE - proyección de diseño",
+      "version_evte": "2018"
+    },
+    {
+      "nombre": "San Román",
+      "demanda_t": 267000,
+      "almacen_m2": 9869,
+      "patio_m2": null,
+      "area_util_m2": 24928,
+      "ratio_m2_por_kt": 93,
+      "naturaleza": "Proyección conceptual E3",
+      "version_evte": "Rev2, año 2032"
+    }
+  ],
+  "areas_2032": [
+    {
+      "componente": "Almacén de granel agroindustrial",
+      "area_m2": 5253.0,
+      "criterio": "Boxes a granel y big bags (Tabla 11)",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Almacén de carga general",
+      "area_m2": 4616.0,
+      "criterio": "Paletas en 2 alturas (Tabla 11)",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Inspección y reconocimiento físico (cubierto)",
+      "area_m2": 400.0,
+      "criterio": "Condición de la SUNAT",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Mercancías peligrosas y averiadas (cubierto)",
+      "area_m2": 300.0,
+      "criterio": "Área segregada",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Oficinas: SUNAT (150), otras entidades (150), operador (600)",
+      "area_m2": 900.0,
+      "criterio": "Condiciones de la SUNAT; EVTE de referencia",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Servicios al conductor y taller",
+      "area_m2": 550.0,
+      "criterio": "Sanitarios, comedor, taller y carga de baterías",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Subtotal cubierto",
+      "area_m2": 12019.0,
+      "criterio": "",
+      "es_subtotal": true,
+      "es_total": false
+    },
+    {
+      "componente": "Patio de contenedores",
+      "area_m2": 2494.0,
+      "criterio": "50 posiciones TEU",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Patio de acero y perfiles",
+      "area_m2": 753.0,
+      "criterio": "Carga general en patio",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Antepatio de docas",
+      "area_m2": 1181.0,
+      "criterio": "6 docas con maniobra de 35 m",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Patio de espera de camiones",
+      "area_m2": 2700.0,
+      "criterio": "30 posiciones de 90 m² (EVTE de Boa Vista y Ponta Porã)",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Posiciones de camión para inspección",
+      "area_m2": 540.0,
+      "criterio": "6 posiciones de 90 m²",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Patio de mercancías peligrosas",
+      "area_m2": 300.0,
+      "criterio": "Área segregada",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Gate, portería y balanzas",
+      "area_m2": 1500.0,
+      "criterio": "3 carriles y 2 balanzas",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Vías internas y circulación",
+      "area_m2": 2841.0,
+      "criterio": "30% de las áreas descubiertas",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Reserva para frío (fase 2)",
+      "area_m2": 600.0,
+      "criterio": "Cámara y tomas reefer",
+      "es_subtotal": false,
+      "es_total": false
+    },
+    {
+      "componente": "Total de área útil",
+      "area_m2": 24928.0,
+      "criterio": "93 m² por kt/año",
+      "es_subtotal": false,
+      "es_total": true
+    }
+  ],
+  "par_sensibilidad": [
+    {
+      "parametro": "m_almacen",
+      "min": "0.8",
+      "moda": "1.0",
+      "max": "1.2",
+      "tipo_fuente": "estrés E3 sobre coef E2, sin dato observado",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "m_descarga",
+      "min": "0.8",
+      "moda": "1.0",
+      "max": "1.2",
+      "tipo_fuente": "estrés E3 sobre coef E2, sin dato observado",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "m_documentos",
+      "min": "0.55",
+      "moda": "1.0",
+      "max": "1.25",
+      "tipo_fuente": "rango factor servicios opcionales E2 Tabla 34; aplicación E3",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "m_inspeccion",
+      "min": "0.55",
+      "moda": "1.0",
+      "max": "1.25",
+      "tipo_fuente": "rango factor servicios opcionales E2 Tabla 34; aplicación E3",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "m_desconsolidacion",
+      "min": "0.55",
+      "moda": "1.0",
+      "max": "1.25",
+      "tipo_fuente": "rango factor servicios opcionales E2 Tabla 34; aplicación E3",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "m_contenedor",
+      "min": "0.55",
+      "moda": "1.0",
+      "max": "1.25",
+      "tipo_fuente": "rango factor servicios opcionales E2 Tabla 34; aplicación E3",
+      "unidad": "factor"
+    },
+    {
+      "parametro": "dias_import",
+      "min": "5.0",
+      "moda": "15.0",
+      "max": "25.0",
+      "tipo_fuente": "E2 Tabla 34",
+      "unidad": "d"
+    },
+    {
+      "parametro": "dias_export",
+      "min": "1.0",
+      "moda": "5.0",
+      "max": "40.0",
+      "tipo_fuente": "E2 Tabla 34",
+      "unidad": "d"
+    },
+    {
+      "parametro": "dias_transito",
+      "min": "1.0",
+      "moda": "6.0",
+      "max": "16.0",
+      "tipo_fuente": "E2 Tabla 34",
+      "unidad": "d"
+    },
+    {
+      "parametro": "dias_brasil",
+      "min": "5.0",
+      "moda": "15.0",
+      "max": "25.0",
+      "tipo_fuente": "análogo importaciones; hipótesis E3",
+      "unidad": "d"
+    },
+    {
+      "parametro": "t_vehiculo",
+      "min": "18.0",
+      "moda": "25.0",
+      "max": "30.0",
+      "tipo_fuente": "Ponta Porã 18, Boa Vista 25, E2 18-30 t/operación",
+      "unidad": "t/veh"
+    },
+    {
+      "parametro": "dias_operativos",
+      "min": "264.0",
+      "moda": "300.0",
+      "max": "330.0",
+      "tipo_fuente": "Boa Vista 22d/mes; 300 actual E3; 330 estrés",
+      "unidad": "d/año"
+    },
+    {
+      "parametro": "ocupacion_almacen",
+      "min": "0.65",
+      "moda": "0.8",
+      "max": "0.9",
+      "tipo_fuente": "hipótesis E3; margen de capacidad",
+      "unidad": "proporción"
+    },
+    {
+      "parametro": "horas_operacion",
+      "min": "9.6",
+      "moda": "12.0",
+      "max": "16.0",
+      "tipo_fuente": "Boa Vista 9,6 h; 12 E3; 16 estrés",
+      "unidad": "h/d"
+    },
+    {
+      "parametro": "factor_punta",
+      "min": "1.0",
+      "moda": "1.5",
+      "max": "2.5",
+      "tipo_fuente": "hipótesis E3; punta/medio",
+      "unidad": "factor"
+    }
+  ],
+  "auditoria": {
+    "diferencia_cadenas_t": 2,
+    "nota": "La diferencia de 2 t se conserva como aparece en la rev2."
+  },
+  "recomendaciones": [
+    "La infraestructura se dimensiona para el año 5 (2032), no para la demanda del primer año.",
+    "Las 5 ha son una reserva conceptual de terreno, no un predio aprobado.",
+    "La geometría, el presupuesto y las autorizaciones quedan fuera del alcance del E3.",
+    "Frío y combustibles no se suman a la captación central.",
+    "Los valores de Boa Vista y Ponta Porã son proyecciones EVTE, no movimientos observados."
+  ],
+  "estimaciones_uso": {
+    "almacenamiento_2032_p50_t": 195395,
+    "descarga_2032_p50_t": 184976,
+    "inspeccion_2032_p50_t": 73655
+  },
+  "fases": [
+    {
+      "fase": "0",
+      "nombre": "Habilitación",
+      "periodo": "Antes de 2028",
+      "area_ha": null,
+      "descripcion": "Validación comercial, emplazamiento, SUNAT, ingeniería y autorizaciones"
+    },
+    {
+      "fase": "1",
+      "nombre": "Núcleo",
+      "periodo": "2028–2032",
+      "area_ha": 2.5,
+      "descripcion": "Gate, balanzas, granel, carga general, patios, docas y seguridad"
+    },
+    {
+      "fase": "2",
+      "nombre": "Consolidación",
+      "periodo": "2033–2040",
+      "area_ha": 2.9,
+      "descripcion": "Ampliaciones y frío solo si se verifica demanda"
+    },
+    {
+      "fase": "3",
+      "nombre": "Integración",
+      "periodo": "2041–2055",
+      "area_ha": 3.5,
+      "descripcion": "Ampliaciones por integración Perú–Bolivia–Brasil condicionadas"
+    }
+  ],
+  "metodo": {
+    "servicio": "Q(i,s,t) = D(i,t) × u(i,s) × m(s)",
+    "capacidad": "S(t) = Σ [Q(i,almacenaje,t) × d(i)] / (días operativos × ocupación objetivo)",
+    "area": "Área = (carga / carga por unidad) × área por unidad / alturas × (1+ incremento)",
+    "fuente_parametros": "Tablas 25/27 y entradas CSV del modelo E3"
+  },
+  "geojson": "e3/rev2_data/puertos_secos_referencia_rev2.geojson"
+}

@@ -1,0 +1,23 @@
+/* Extensión E3: hereda expresamente la identidad oscura y amarillo del WebGIS E2. */
+.e3-bands{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:12px 0}
+.e3-bands button{font-size:10px;padding:10px 4px;background:#2b2b2b;border:1px solid #555;color:#ddd}
+.e3-bands button.active{background:#3c3212;color:#ffcf12;border-color:#ffcf12}
+.e3-form{border:1px solid #484848;padding:12px;margin:12px 0;background:#202020}
+.e3-form label{font-size:9px;font-weight:750;color:#c8c8c8}
+.e3-form strong{color:#ffc000}
+.e3-form input[type=range]{width:100%;accent-color:#ffc000;padding:0;cursor:pointer;margin:12px 0}
+.e3-form input[type=number]{max-width:100%;background:#292929;color:#fff}
+.e3-kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:16px 0}
+.e3-kpi{padding:12px;border:1px solid #454545;background:#202020}
+.e3-kpi small,.e3-kpi span{font-size:9px;display:block;color:#bbb;line-height:1.45}
+.e3-kpi b{font-size:18px;color:#ffcc00;display:block;margin:5px 0}
+.e3-plot{height:245px;background:#202020;border:1px solid #444}
+.e3-note{font-size:10.5px;line-height:1.6;border-left:3px solid #ffcc00;padding:12px;margin:12px 0;background:#2c281a;color:#e6dfc9}
+.e3-mainbutton,.e3-subbutton{width:100%;margin:9px 0 0;padding:14px;font-weight:650;background:#d6ad00;color:#161616}
+.e3-subbutton{background:#292929;color:#f9cb15;border:1px solid #6c611b}
+#e3-board{position:absolute;z-index:850;top:12px;left:12px;right:12px;bottom:12px;background:#202020;border:2px solid #e8ba00;box-shadow:0 8px 35px #000a;overflow-y:auto;color:#eee}
+.e3-board-head{padding:12px 18px;display:flex;align-items:center;justify-content:space-between;background:#151515;border-bottom:2px solid #f6c900}
+.e3-board-head b{font-size:15px;color:#f6c900}.e3-board-head small{font-size:10px}.e3-board-head button{font-size:11px}
+.e3-board-menu{display:flex;gap:6px;padding:8px 15px;flex-wrap:wrap}.e3-board-menu button{font-size:11px;padding:10px;background:#292929}.e3-board-menu button.active{background:#f6c900;color:#111}
+#e3-bigplot{width:100%;min-height:410px}#e3-board-explain{padding:10px 20px 20px;font-size:11px;color:#bbb;line-height:1.6}
+@media(max-width:950px){.e3-bands{grid-template-columns:repeat(2,1fr)}}

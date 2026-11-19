@@ -1,0 +1,18 @@
+﻿componente,area_m2,criterio,es_subtotal,es_total
+Almacén de granel agroindustrial,5253.0,Boxes a granel y big bags (Tabla 11),False,False
+Almacén de carga general,4616.0,Paletas en 2 alturas (Tabla 11),False,False
+Inspección y reconocimiento físico (cubierto),400.0,Condición de la SUNAT,False,False
+Mercancías peligrosas y averiadas (cubierto),300.0,Área segregada,False,False
+"Oficinas: SUNAT (150), otras entidades (150), operador (600)",900.0,Condiciones de la SUNAT; EVTE de referencia,False,False
+Servicios al conductor y taller,550.0,"Sanitarios, comedor, taller y carga de baterías",False,False
+Subtotal cubierto,12019.0,,True,False
+Patio de contenedores,2494.0,50 posiciones TEU,False,False
+Patio de acero y perfiles,753.0,Carga general en patio,False,False
+Antepatio de docas,1181.0,6 docas con maniobra de 35 m,False,False
+Patio de espera de camiones,2700.0,30 posiciones de 90 m² (EVTE de Boa Vista y Ponta Porã),False,False
+Posiciones de camión para inspección,540.0,6 posiciones de 90 m²,False,False
+Patio de mercancías peligrosas,300.0,Área segregada,False,False
+"Gate, portería y balanzas",1500.0,3 carriles y 2 balanzas,False,False
+Vías internas y circulación,2841.0,30% de las áreas descubiertas,False,False
+Reserva para frío (fase 2),600.0,Cámara y tomas reefer,False,False
+Total de área útil,24928.0,93 m² por kt/año,False,True

@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "name": "referencias_puertos_secos_rev2",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.689601947141256,
+          -19.02297742695795
+        ]
+      },
+      "properties": {
+        "id": "agesa",
+        "nombre": "AGESA – Corumbá",
+        "clase": "operacional",
+        "precision": "Coordenada publicada por operador",
+        "ciudad": "Corumbá, MS, Brasil",
+        "fuente_url": "https://agesa.com.br/fale-conosco/",
+        "nota": "Terminal operacional; coordenada de AGESA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.982554,
+          -15.66275
+        ]
+      },
+      "properties": {
+        "id": "cuiaba",
+        "nombre": "Porto Seco Cuiabá",
+        "clase": "operacional",
+        "precision": "Coordenada oficial en acto de alfandegamiento",
+        "ciudad": "Cuiabá, MT, Brasil",
+        "fuente_url": "https://www.legisweb.com.br/legislacao/?id=489277",
+        "nota": "Terminal operacional; acto de alfandegamiento publicado en 2026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9324373,
+          -16.3982355
+        ]
+      },
+      "properties": {
+        "id": "anapolis",
+        "nombre": "Porto Seco Centro-Oeste – Anápolis",
+        "clase": "operacional",
+        "precision": "Georreferencia secundaria de dirección declarada",
+        "ciudad": "Anápolis, GO, Brasil",
+        "fuente_url": "https://portoseco.com.br/fale-conosco/porto-aberto",
+        "nota": "Ubicación de referencia; verificar contra polígono del recinto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.9678872,
+          -3.128772
+        ]
+      },
+      "properties": {
+        "id": "manaus",
+        "nombre": "Aurora EADI – Manaus",
+        "clase": "operacional",
+        "precision": "Coordenada aproximada de la vía / distrito",
+        "ciudad": "Manaus, AM, Brasil",
+        "fuente_url": "https://auroramanaus.com.br/contato",
+        "nota": "La posición NO es un levantamiento del recinto; dirección oficial Rua Ministro João Gonçalves de Araújo 472 Parte E"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1339,
+          -15.499
+        ]
+      },
+      "properties": {
+        "id": "juliaca",
+        "nombre": "Puerto Seco San Román (Juliaca)",
+        "clase": "proyecto",
+        "precision": "Punto urbano de referencia, predio NO definido",
+        "ciudad": "Juliaca, San Román, Puno, Perú",
+        "fuente_url": "",
+        "nota": "No representa emplazamiento seleccionado o ingeniería de planta"
+      }
+    }
+  ]
+}

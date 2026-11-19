@@ -1,0 +1,9 @@
+﻿servicio,p10,p50,p90,unidad
+Carga que utiliza almacenamiento,173811.0,195395.0,216489.0,t/año
+Carga que utiliza descarga,164537.0,184976.0,203219.0,t/año
+Carga sujeta a inspección,56598.0,73655.0,86934.0,t/año
+Capacidad estática de almacenamiento,7700.0,11195.0,15085.0,t
+Visitas de camiones,32.1,36.8,43.3,camiones/día
+Carriles de gate,2.0,3.0,4.0,carriles
+Posiciones de descarga,3.0,3.0,4.0,posiciones
+Posiciones de inspección,1.0,1.0,1.0,posiciones

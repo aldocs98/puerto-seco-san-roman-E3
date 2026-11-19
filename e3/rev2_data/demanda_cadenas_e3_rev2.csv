@@ -1,0 +1,15 @@
+﻿id,cadena,mercado_t,captacion_t,familias_regimen
+C01,C01 · Bolivia → Perú (destino Puno),188608.0,34133.0,Granel y carga general; importación
+C02,C02 · Perú → Bolivia (origen Puno),80984.0,6682.0,Carga general; exportación
+C03,C03 · Tránsito boliviano (paso por Juliaca),498693.0,41210.0,Carga general y granel; tránsito
+C04,C04 · Brasil → Perú (destino Puno),1064.0,77.0,Carga general y granel; importación
+C05,C05 · Matarani (destino Puno),47384.0,7236.0,Granel y contenedor; importación
+C06,C06 · Diésel ferroviario,14000.0,0.0,Combustibles; sin captación
+C07,C07 · Bolivia → Perú (paso por Juliaca),914270.0,105548.0,Granel y carga general; importación
+C08,C08 · Perú → Bolivia (paso por Juliaca),390004.0,20501.0,Carga general; exportación
+C09,C09 · Brasil → Perú (paso por Juliaca),6389.0,340.0,Carga general y granel; importación
+C10,C10 · Matarani (paso por Juliaca),37692.0,3630.0,Granel y contenedor; importación
+C11,C11 · Bolivia → Perú (otras rutas),310084.0,16225.0,Granel y carga general; importación
+C12,C12 · Perú → Bolivia (otras rutas),132133.0,3144.0,Carga general; exportación
+C13,C13 · Tránsito boliviano (otras rutas),327133.0,7103.0,Carga general y granel; tránsito
+C14,C14 · Brasil → Perú (otras rutas),56438.0,1314.0,Carga general y granel; importación
