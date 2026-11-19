@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>INFRAPLAN | Puerto Seco San Román | E3 Rev2</title>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="e3/rev2.css">
+</head>
+<body>
+<div class="shell">
+ <aside class="sidebar">
+   <div class="brand"><img src="logo.png" alt="INFRAPLAN"><span>ESTUDIO DE DEMANDA<br><small>PUERTO SECO DE SAN ROMÁN</small></span></div>
+   <div class="side-overline">ENTREGABLE Nº 3 · REV2</div>
+   <h1>Perfil funcional<br><em>y benchmarking</em></h1>
+   <p>Consultas interactivas de las cifras, capacidades, superficies y referencias del informe del 19/11/2026.</p>
+   <div class="side-divider"></div>
+   <nav id="nav">
+    <button data-view="resumen" class="selected"><span>01</span> Resumen ejecutivo</button>
+    <button data-view="demanda"><span>02</span> Demanda y cadenas</button>
+    <button data-view="benchmark"><span>03</span> Benchmarking</button>
+    <button data-view="mapa"><span>04</span> Mapa de referencias</button>
+    <button data-view="capacidad"><span>05</span> Capacidades y LHS</button>
+    <button data-view="areas"><span>06</span> Áreas y equipamiento</button>
+    <button data-view="fases"><span>07</span> Desarrollo por fases</button>
+    <button data-view="traza"><span>08</span> Fuentes y auditoría</button>
+   </nav>
+   <div class="side-divider"></div>
+   <a class="back" href="index.html">← Abrir WebGIS E1–E2 · corredores y flujos</a>
+   <p class="small">No incorpora escenarios nuevos a la demanda central. Se conservan los datos de E2 y los resultados reportados en la rev2.</p>
+ </aside>
+ <section class="workspace">
+  <header class="topbar"><span class="mini">INFRAPLAN / ESTUDIO DE DEMANDA / ENTREGABLE 3</span><div><span class="version">INFORME REV2</span><button id="csv" title="Exportar el conjunto de datos CSV de la vista activa">Exportar CSV</button></div></header>
+  <div class="content" id="screen">
+   <div class="loading">Cargando datos oficiales del Entregable 3…</div>
+  </div>
+  <footer><span>Fuente: IFP0298 · Informe E3 rev2 | Datos locales trazables</span><span>OpenStreetMap © colaboradores · Infraplan</span></footer>
+ </section>
+</div>
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/plotly.min.js"></script>
+<script src="e3/rev2.js"></script>
+</body>
+</html>
