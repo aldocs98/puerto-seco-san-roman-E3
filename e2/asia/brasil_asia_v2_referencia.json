@@ -1,0 +1,46 @@
+{
+  "fuente": "Comexstat 2025; universo comercial de cuatro estados brasileños con China y Japón, según informe E2",
+  "alcance": "Mercado de referencia Brasil–Asia, separado del escenario central de Juliaca",
+  "filas": [
+    {
+      "estado": "Mato Grosso",
+      "sentido": "Exportacion Brasil a Asia",
+      "comercio_2025_t": 25158514
+    },
+    {
+      "estado": "Mato Grosso",
+      "sentido": "Importacion Brasil desde Asia",
+      "comercio_2025_t": 2270944
+    },
+    {
+      "estado": "Rondônia",
+      "sentido": "Exportacion Brasil a Asia",
+      "comercio_2025_t": 871206
+    },
+    {
+      "estado": "Rondônia",
+      "sentido": "Importacion Brasil desde Asia",
+      "comercio_2025_t": 789900
+    },
+    {
+      "estado": "Amazonas",
+      "sentido": "Exportacion Brasil a Asia",
+      "comercio_2025_t": 14319
+    },
+    {
+      "estado": "Amazonas",
+      "sentido": "Importacion Brasil desde Asia",
+      "comercio_2025_t": 1065169
+    },
+    {
+      "estado": "Acre",
+      "sentido": "Exportacion Brasil a Asia",
+      "comercio_2025_t": 11818
+    },
+    {
+      "estado": "Acre",
+      "sentido": "Importacion Brasil desde Asia",
+      "comercio_2025_t": 221
+    }
+  ]
+}

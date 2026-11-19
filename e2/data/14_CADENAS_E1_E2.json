@@ -1,0 +1,128 @@
+[
+  {
+    "id_cadena": "C01",
+    "mercado_2028_t": 188608,
+    "captacion_t_2028": 34132,
+    "ingreso_usd_2028": 728557,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 21.3452,
+    "p50_e1_2025_t_proxy": 177000
+  },
+  {
+    "id_cadena": "C02",
+    "mercado_2028_t": 80984,
+    "captacion_t_2028": 6682,
+    "ingreso_usd_2028": 140276,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 20.9925,
+    "p50_e1_2025_t_proxy": 76000
+  },
+  {
+    "id_cadena": "C03",
+    "mercado_2028_t": 498693,
+    "captacion_t_2028": 41210,
+    "ingreso_usd_2028": 818210,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 19.8547,
+    "p50_e1_2025_t_proxy": 468000
+  },
+  {
+    "id_cadena": "C04",
+    "mercado_2028_t": 1065,
+    "captacion_t_2028": 77,
+    "ingreso_usd_2028": 2198,
+    "perfiles": 4,
+    "ticket_usd_t_2028": 28.5988,
+    "p50_e1_2025_t_proxy": 1000
+  },
+  {
+    "id_cadena": "C05",
+    "mercado_2028_t": 47383,
+    "captacion_t_2028": 7236,
+    "ingreso_usd_2028": 182642,
+    "perfiles": 2,
+    "ticket_usd_t_2028": 25.2406,
+    "p50_e1_2025_t_proxy": 44000
+  },
+  {
+    "id_cadena": "C06",
+    "mercado_2028_t": 14000,
+    "captacion_t_2028": 0,
+    "ingreso_usd_2028": 0,
+    "perfiles": 1,
+    "ticket_usd_t_2028": null,
+    "p50_e1_2025_t_proxy": 13000
+  },
+  {
+    "id_cadena": "C07",
+    "mercado_2028_t": 914271,
+    "captacion_t_2028": 105548,
+    "ingreso_usd_2028": 2249304,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 21.3107,
+    "p50_e1_2025_t_proxy": 858000
+  },
+  {
+    "id_cadena": "C08",
+    "mercado_2028_t": 390004,
+    "captacion_t_2028": 20501,
+    "ingreso_usd_2028": 430615,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 21.0047,
+    "p50_e1_2025_t_proxy": 366000
+  },
+  {
+    "id_cadena": "C09",
+    "mercado_2028_t": 6389,
+    "captacion_t_2028": 339,
+    "ingreso_usd_2028": 8791,
+    "perfiles": 4,
+    "ticket_usd_t_2028": 25.9305,
+    "p50_e1_2025_t_proxy": 6000
+  },
+  {
+    "id_cadena": "C10",
+    "mercado_2028_t": 37691,
+    "captacion_t_2028": 3630,
+    "ingreso_usd_2028": 91237,
+    "perfiles": 2,
+    "ticket_usd_t_2028": 25.1363,
+    "p50_e1_2025_t_proxy": 35000
+  },
+  {
+    "id_cadena": "C11",
+    "mercado_2028_t": 310085,
+    "captacion_t_2028": 16226,
+    "ingreso_usd_2028": 345248,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 21.278,
+    "p50_e1_2025_t_proxy": 291000
+  },
+  {
+    "id_cadena": "C12",
+    "mercado_2028_t": 132132,
+    "captacion_t_2028": 3145,
+    "ingreso_usd_2028": 66055,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 21.0058,
+    "p50_e1_2025_t_proxy": 124000
+  },
+  {
+    "id_cadena": "C13",
+    "mercado_2028_t": 327134,
+    "captacion_t_2028": 7102,
+    "ingreso_usd_2028": 140856,
+    "perfiles": 3,
+    "ticket_usd_t_2028": 19.8339,
+    "p50_e1_2025_t_proxy": 307000
+  },
+  {
+    "id_cadena": "C14",
+    "mercado_2028_t": 56437,
+    "captacion_t_2028": 1314,
+    "ingreso_usd_2028": 33991,
+    "perfiles": 4,
+    "ticket_usd_t_2028": 25.8681,
+    "p50_e1_2025_t_proxy": 53000
+  }
+]
